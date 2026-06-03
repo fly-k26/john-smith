@@ -41,3 +41,48 @@ body {
     font-weight: 500;
 }
 
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0;
+}
+
+.main__hero {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 200px;
+}
+
+.main__hero-avatar {
+    width: 150px;
+    height: 150px;
+}
+
+.main__hero-content {
+    text-align: left;
+}
+
+.main__hero-title {
+    font-size: 5em;
+    font-weight: 800;
+    line-height: 1.1;
+    color: var(--text-color);
+    margin-bottom: 12px;
+}
+
+.main__hero-title--pink {
+    color: var(--accent-pink);
+}
+
+.main__hero-subtitle {
+    font-size: 1.5em;
+    font-weight: 300;
+    color: var(--text-color);
+}
+
