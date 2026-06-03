@@ -48,7 +48,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 100px 0;
+    padding: 180px 0 100px 0;
 }
 
 .main__hero {
@@ -69,7 +69,7 @@ body {
 }
 
 .main__hero-title {
-    font-size: 5em;
+    font-size: 4.5em;
     font-weight: 800;
     line-height: 1.1;
     color: var(--text-color);
@@ -86,3 +86,57 @@ body {
     color: var(--text-color);
 }
 
+
+
+.contact {
+    background-color: var(--bg-contact);
+    padding: 80px 0;
+}
+
+.contact__container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.contact__title {
+    font-size: 3em;
+    font-weight: 800;
+    color: var(--text-color);
+    margin-bottom: 70px;
+}
+
+.contact__text {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: var(--text-color);
+    margin-bottom: 70px;
+}
+
+.contact__social {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 70px;
+}
+
+.contact__social-link img {
+    width: 21px;
+    height: 20px;
+    display: block;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px 8px;
+    font-size: 1em;
+    font-weight: 600;
+    border-radius: 3px;
+}
+
+.btn--primary {
+    background-color: var(--accent-pink);
+    color: var(--text-color);
+}
